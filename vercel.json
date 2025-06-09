@@ -1,0 +1,6 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/rulesets/(.*)", "destination": "/rulesets/$1" }
+  ]
+}
